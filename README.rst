@@ -7,13 +7,13 @@ Preparing for Development
 --------------------------------
 
 1. Ensure ``pip`` and ``pipenv`` are installed.
-2. Clone repository: ``git clone git@github.com:example/pgbackup``
+2. Clone repository: ``git clone https://github.com/ArseniD/pg_backup.git``
 3. Fetch development dependencies: ``make install``
 
 Usage
 -------
 
-Pass in a full database URL, the storage driver and destination.
+Pass in a full database URL, the storage driver, and destination.
 
 S3 Example w/ bucket name:
 
@@ -29,7 +29,7 @@ Local Example w/ local path:
 
 Running Tests
 -----------------
-make
+
 Run tests locally using ``make`` if virtualenv is active:
 
 ::
